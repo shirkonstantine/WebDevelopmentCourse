@@ -1,0 +1,41 @@
+body {
+    direction: rtl;
+    background-color: black;
+    text-align: center;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: powderblue;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 45pt;
+    font-weight: bold;
+    color: purple;
+    font-family: Tahoma;
+}
+
+h2 , h3 {
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    color: palevioletred;
+    text-decoration: underline;
+
+}
+    h2:hover, h3:hover {
+        border: 5px dotted #8880FF;
+    }
+
+p {
+    font-family: Tahoma;
+    font-size: 15px;
+    color: black;
+}
+
+    p:last-child img:hover{
+       transform:scale(1.5);
+    }
