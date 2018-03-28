@@ -1,0 +1,54 @@
+body {
+    direction: rtl;
+    background-color: gold;
+    text-align: right;
+    font-family: Tahoma;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: lightseagreen;
+    padding: 50px;
+    font-family: Tahoma;
+}
+h1 {
+    font-size: 45px;
+    font-family: Tahoma;
+    color: gold;
+    margin-bottom: 20px;
+}
+h2, h4 {
+    font-size: 18px;
+    font-family: Tahoma;
+    color: white;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 15px;
+    font-family: Tahoma;
+    color: white;
+    margin-bottom: 10px;
+}
+label{
+     display:block;
+     margin-top:10px;
+     color:white;
+}
+
+input[type ='text'] , input[type ='password'] ,textarea , select {
+    display:block;
+    margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+ margin-top:10px;
+}
+ka{
+    font-family:Tahoma;
+    color:white;
+}
+p img:hover {
+    transform: scale(1.2);
+}
