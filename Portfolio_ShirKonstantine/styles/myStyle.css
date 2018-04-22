@@ -1,0 +1,128 @@
+body {
+    direction: rtl;
+    background-image: url('../img/3b4460665e63d923bb25e44e41814518.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    background-attachment:fixed;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+}
+#nav1 ul {
+    list-style: none;
+}
+
+#nav1 ul li {
+        display: inline-block;
+        float:none;
+}
+
+#nav1 ul li a {
+            display: block;
+            background-color: darkgray;
+            color: white;
+            width: 170px;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Varela Round';
+}
+
+#nav1 ul li a:hover {
+                background-color: gray;
+}
+
+#nav1 ul li a:active {
+                background-color: black;
+}
+
+#nav1 ul li ul {
+            display: none;
+            position: absolute;
+}
+
+#nav1 ul li:hover > ul {
+            display: block;
+            width: 120px;
+}
+h1 {
+    font-size: 45pt;
+    font-weight: bolder;
+    color: darkslategray;
+    font-family:'Varela Round';
+}
+h2 {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #a0a0a0;
+    font-family: 'Varela Round';
+}
+h3 {
+    font-size: 20pt;
+    color: darkslategray;
+    font-family: 'Varela Round';
+}
+p {
+    font-size: 17pt;
+    color: darkslategray;
+    font-family: 'Varela Round';
+  
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, p, section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    color: darkslategray;
+    font-family: 'Varela Round';
+    font-size: 17pt;
+}
+
+input[type ='text'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Varela Round';
+    font-size: 13pt;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+    font-family: 'Varela Round';
+}
+p img:hover {
+    transform: scale(1.1);
+}
+
+.mypage {
+    background-color: black !important;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+nav ul li:hover > ul {
+    display: block;
+    width: 120px;
+}
+#yofi {
+    float: left;
+    margin-left: 162px;
+    margin-top: -46px;
+}
+p a{
+    text-decoration:none;
+
+}
+
